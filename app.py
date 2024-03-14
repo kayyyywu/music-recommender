@@ -185,11 +185,8 @@ def main():
     with st.sidebar.form(key='Form1'):
         # User inputs name and link to playlists
         for i in range(3):
-            if i == 0:
-                playlist_link = st.text_input('Enter Link of Playlist '+str(i+1), key=i,
-                                          placeholder='e.g., https://open.spotify.com/playlist/37i9dQZF1DX1lVhptIYRda')
-            else:
-                playlist_link = st.text_input('Enter Link of Playlist '+str(i+1), key=i)
+            playlist_link = st.text_input('Enter Link of Playlist '+str(i+1), key=i,
+                              placeholder='https://open.spotify.com/playlist/your-playlist-id')
 
             if playlist_link:
                 playlist_id.append(get_playlist_id(playlist_link)) 
