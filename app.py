@@ -198,6 +198,8 @@ def main():
                                                 min_value=1, max_value=20, value=10)
         submitted_playlist = st.form_submit_button(label = 'Find Playlists 🔎')
 
+        st.sidebar.info('Feel free to explore this playlist: https://open.spotify.com/playlist/2vW8Cy2T6Jso2gqDWApjZJ')
+
     if submitted_playlist:
         playlist_keys = list(playlists.keys())
         st.toast('Searching Spotify for Playlists', icon='🔎')
