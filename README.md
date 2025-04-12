@@ -1,5 +1,7 @@
 # music-recommender
 
+[![Watch the demo](https://img.youtube.com/vi/a5k4klDaBrY/0.jpg)](https://www.youtube.com/watch?v=a5k4klDaBrY&autoplay=1)
+
 ## Purpose
 The purpose of this Personalized Music Recommendation Website is to combine content-based, popularity-based, and related artists' network analyses, alongside K-means clustering to offer personalized song recommendations from users' Spotify playlists.
 
