@@ -1,6 +1,7 @@
 # music-recommender
 
-https://github.com/user-attachments/assets/2c3dd456-0ae4-4198-a422-3d2d501ea756
+## Demo
+![demo](https://github.com/user-attachments/assets/a6a9008f-ec2e-45b5-91c0-c6db9e5d404b)
 
 ## Purpose
 The purpose of this Personalized Music Recommendation Website is to combine content-based, popularity-based, and related artists' network analyses, alongside K-means clustering to offer personalized song recommendations from users' Spotify playlists.
